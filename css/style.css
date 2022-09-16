@@ -1,0 +1,207 @@
+
+/* Raleway */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,900;1,400;1,600;1,900&display=swap');
+
+@font-face {
+   font-family: "TarnationSans";
+   src: url("../fonts/TarnationSans-Regular.woff2") format("woff2"), url("../fonts/TarnationSans-Regular.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+   font-display: swap;
+   font-weight: 900;
+   font-style: normal;
+}
+body{
+   font-family: Raleway,sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.2;
+}
+.hero__title{
+   font-family: TarnationSans, sans-serif;
+   font-size: 60px;
+   text-transform: capitalize;
+   text-align: center;
+   text-shadow: 2px 2px 40px rgb(0, 56, 6);
+   margin: 15px;
+}
+.title{
+   font-size: 35px;
+   font-style: italic;
+   text-transform: uppercase;
+   text-align: center;
+   text-shadow: 2px 2px 20px rgb(51, 2, 2);
+   text-decoration: underline;
+   word-spacing: 15px;
+   margin-bottom: 12px;
+}
+.nav{
+   font-family: TarnationSans, sans-serif;
+   font-size: 20px;
+   color: brown;
+   line-height: 1.5;
+   text-shadow: 5px 5px 50px rgb(134, 67, 11); 
+   padding: 20px 10px;
+}
+.zero__block{
+   text-indent: 15px;
+   line-height: 1.3;
+   width: 100%;
+   margin: 15px;
+   padding: 10px 20px 15px 17px;
+}
+.block__first {
+   color: red;
+   text-align: left;
+}
+
+.block__first ~ p {
+   font-weight: 600;
+   color: rgb(180, 135, 222);
+   text-align: center;
+   text-transform: uppercase;
+   font-family: Raleway, sans-serif;
+}
+.block__first + p {
+   font-family: lato, sans-serif;
+   font-style: oblique;
+   color: burlywood;
+   text-align: right;
+   text-transform: capitalize;
+   margin: 20px;
+   width: 80%;
+}
+.secont__title{
+   font-family: TarnationSans, sans-serif;
+   font-size: 55px;
+   color: black;
+   text-align: center;
+   text-shadow: 2px 2px 40px rgb(141, 12, 12);
+   text-transform: uppercase;
+   margin-top: 20px;
+   margin-bottom: 25px;
+}
+.first__column{
+   font-family: Lato, sans-serif;
+   font-weight: 900;
+   text-align: right;
+   text-transform: lowercase;
+   letter-spacing: 8px;
+}
+.second__column{
+   font-size: 20px;
+   font-style: italic;
+   font-weight: 600;
+   color: aquamarine;
+   text-align: center;
+   word-spacing: 4px;
+   margin-top: 15px;
+   margin-bottom: 18px;
+}
+.second__block{
+   font-size: 25px;
+   font-weight: 900;
+   text-indent: 15px;
+   margin: 20px 25px 30px 30px;
+   width: 100%;
+}
+.safo__first{
+   font-family: Lato, sans-serif;
+   color: coral;
+   text-transform:capitalize;
+   text-align: center;
+   text-shadow: 2px 2px 5px blueviolet;
+   padding: 15px 18px;
+   padding: 30px;
+}
+.safo__second{
+   color: aqua;
+   text-decoration: underline;
+   text-align: right;
+   word-spacing: 10px;
+   text-shadow: 3px 3px 4px royalblue;
+   margin: 50px;
+   
+}
+.safo__third{
+   font-family: TarnationSans, sans-serif;
+   font-style: italic;
+   color: crimson;
+   text-align: left;
+   letter-spacing: 3px;
+   text-shadow: 3px 3px 10px black;
+   padding: 60px;
+}
+.third__block{
+   font-size: 30px;
+   color: darkblue;
+   font-weight: 900;
+   text-align: center;
+   text-shadow: 2px 2px 6px rgb(192, 11, 174);
+   word-spacing: 10px;
+   width: 100%;
+   padding: 10px 15px 20px 25px;
+   margin: 40px;
+}
+.fuorth__block{
+   font-size: 26px;
+   font-style: italic;
+   font-weight: 600;
+   color: darkkhaki;
+   text-indent: 25px;
+   letter-spacing: 14px;
+   margin: 10px 30px;
+}
+
+.zapovit + p {
+   font-family: TarnationSans, sans-serif;
+   color: blue;
+   text-align: center;
+   text-shadow: 2px 2px 8px red;
+   margin-top: 30px;
+   margin-bottom: 25px;
+}
+.up{
+   font-family: TarnationSans, sans-serif;
+   font-size: 40px;
+   color: crimson;
+   text-shadow: 2px 2px 5px black;
+}
+.job{
+   font-size: 40px;
+   font-style: italic;
+   text-align: center;
+   color: darkblue;
+   margin: 40px;
+}
+.pasha{
+   font-family: TarnationSans, sans-serif;
+   font-size: 60px;
+   text-decoration: underline;
+}
+
+
+
+
+
+
